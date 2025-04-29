@@ -12,6 +12,9 @@ class Shopping:
             
     #removing an item from the cart     
     def rem_item(self,item,q):
+        if item not in self.cart:
+            print(f"{item} not in cart")
+            return
         if self.cart[item]>q:
             self.cart[item]-=q
         elif self.cart[item]==q:
