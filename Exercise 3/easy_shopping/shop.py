@@ -12,6 +12,7 @@ class Shopping:
             
     #removing an item from the cart     
     def rem_item(self,item,q):
+        #handles the case when the item is not in the cart
         if item not in self.cart:
             print(f"{item} not in cart")
             return
