@@ -2,14 +2,16 @@
 from easy_shopping import Calculator,Shopping
 print()
 
+#creating an object of class Calculator
 c=Calculator()
 print("Addition: ",c.add(4,5))
 print("Subtraction: ",c.sub(34,21))
 print("Multiplication: ",c.mul(54,2))
 print("Division: ",c.div(144,2))
 print("Division: ",c.div(45,0))
-
 print()
+
+#Creating an object of class Shopping
 s=Shopping()
 s.add_item("Trouser",1)
 s.add_item("Shirt",3)
