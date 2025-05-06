@@ -4,6 +4,7 @@ from qgis.PyQt.QtWebKitWidgets import QWebView
 # Get the district name from the clicked feature
 district = '[%"Stat_Name"%]'# Replace with your field name
 
+
 # Format it for Wikipedia URL (replace spaces with underscores)
 district_formatted = district.replace(" ", "_")
 

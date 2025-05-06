@@ -4,7 +4,6 @@ import csv
 # Get the active layer (make sure it's 'Schools')
 layer = iface.activeLayer()
 
-
 # Open the CSV file to write
 with open("C:/Users/hp/Desktop/SchoolReport.csv", "w", newline="", encoding="utf-8") as file:
     # Write the header
