@@ -1,11 +1,9 @@
-# Import modules
+# Importing modules
 import os
 from qgis.core import QgsVectorLayer, QgsProject, QgsApplication
 
-# Optional: Set QGIS install location if needed
-# QgsApplication.setPrefixPath("C:/OSGeo4W/apps/qgis", True)
 
-# Initialize QGIS Application (if running standalone)
+# Initializing QGIS Application 
 qgs = QgsApplication([], False)
 qgs.initQgis()
 
