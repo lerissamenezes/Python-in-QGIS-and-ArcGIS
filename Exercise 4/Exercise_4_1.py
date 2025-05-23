@@ -15,6 +15,7 @@ web = QWebView()
 
 # Loading the URL into the WebView
 web.load(url)
+web.setWindowTitle(f"Wikipedia - {district}")
 web.resize(800, 600)
 # Showing the window
 web.show()
