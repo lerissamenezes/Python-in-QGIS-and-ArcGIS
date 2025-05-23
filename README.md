@@ -1,1 +1,1 @@
-These are my course exercieses
+These are my course exercises
